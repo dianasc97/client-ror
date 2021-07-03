@@ -1,0 +1,35 @@
+#flex-container-label-input-button {
+    display: flex;
+    justify-content: center;
+}
+
+#searchButton {
+    height: 50%;
+    margin-top: 20px;
+}
+
+#close-body-container {
+    display: block;
+}
+
+#close-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#closeIcon {
+    margin: 5px;
+    color: #7F1D1D;
+}
+
+@media(max-width: 1023px) {
+    #grid-colums {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media(max-width: 550px) {
+    #grid-colums {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+}
